@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 22/04/2019 11:14
+    Creation date: 24/04/2019 05:57
     */
 
     @font-face {
@@ -37,32 +37,40 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-smartphone-call:before { content: "\f100"; }
-.flaticon-mail:before { content: "\f101"; }
-.flaticon-twitter-logo-silhouette:before { content: "\f102"; }
-.flaticon-ecology:before { content: "\f103"; }
-.flaticon-plant:before { content: "\f104"; }
+    .flaticon-home:before { content: "\f100"; }
+.flaticon-mobile-phone:before { content: "\f101"; }
+.flaticon-mail:before { content: "\f102"; }
+.flaticon-leaf:before { content: "\f103"; }
+.flaticon-checked:before { content: "\f104"; }
 .flaticon-gardening:before { content: "\f105"; }
-.flaticon-building:before { content: "\f106"; }
-.flaticon-shovel:before { content: "\f107"; }
-.flaticon-watering-can:before { content: "\f108"; }
-.flaticon-calendar:before { content: "\f109"; }
-.flaticon-plant-1:before { content: "\f10a"; }
-.flaticon-send-button:before { content: "\f10b"; }
-.flaticon-facebook-logo:before { content: "\f10c"; }
-.flaticon-google-plus-logo:before { content: "\f10d"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f106"; }
+.flaticon-mail-1:before { content: "\f107"; }
+.flaticon-trophy:before { content: "\f108"; }
+.flaticon-manager:before { content: "\f109"; }
+.flaticon-email-filled-closed-envelope:before { content: "\f10a"; }
+.flaticon-call-answer:before { content: "\f10b"; }
+.flaticon-placeholder-filled-point:before { content: "\f10c"; }
+.flaticon-signing-the-contract:before { content: "\f10d"; }
+.flaticon-old-typical-phone:before { content: "\f10e"; }
+.flaticon-move:before { content: "\f10f"; }
+.flaticon-next:before { content: "\f110"; }
+.flaticon-left:before { content: "\f111"; }
     
-    $font-Flaticon-smartphone-call: "\f100";
-    $font-Flaticon-mail: "\f101";
-    $font-Flaticon-twitter-logo-silhouette: "\f102";
-    $font-Flaticon-ecology: "\f103";
-    $font-Flaticon-plant: "\f104";
+    $font-Flaticon-home: "\f100";
+    $font-Flaticon-mobile-phone: "\f101";
+    $font-Flaticon-mail: "\f102";
+    $font-Flaticon-leaf: "\f103";
+    $font-Flaticon-checked: "\f104";
     $font-Flaticon-gardening: "\f105";
-    $font-Flaticon-building: "\f106";
-    $font-Flaticon-shovel: "\f107";
-    $font-Flaticon-watering-can: "\f108";
-    $font-Flaticon-calendar: "\f109";
-    $font-Flaticon-plant-1: "\f10a";
-    $font-Flaticon-send-button: "\f10b";
-    $font-Flaticon-facebook-logo: "\f10c";
-    $font-Flaticon-google-plus-logo: "\f10d";
+    $font-Flaticon-calendar-with-a-clock-time-tools: "\f106";
+    $font-Flaticon-mail-1: "\f107";
+    $font-Flaticon-trophy: "\f108";
+    $font-Flaticon-manager: "\f109";
+    $font-Flaticon-email-filled-closed-envelope: "\f10a";
+    $font-Flaticon-call-answer: "\f10b";
+    $font-Flaticon-placeholder-filled-point: "\f10c";
+    $font-Flaticon-signing-the-contract: "\f10d";
+    $font-Flaticon-old-typical-phone: "\f10e";
+    $font-Flaticon-move: "\f10f";
+    $font-Flaticon-next: "\f110";
+    $font-Flaticon-left: "\f111";

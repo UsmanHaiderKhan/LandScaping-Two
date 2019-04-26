@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 22/04/2019 11:14
+  	Creation date: 24/04/2019 05:57
   	*/
 
 @font-face {
@@ -30,17 +30,21 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-smartphone-call:before { content: "\f100"; }
-.flaticon-mail:before { content: "\f101"; }
-.flaticon-twitter-logo-silhouette:before { content: "\f102"; }
-.flaticon-ecology:before { content: "\f103"; }
-.flaticon-plant:before { content: "\f104"; }
+.flaticon-home:before { content: "\f100"; }
+.flaticon-mobile-phone:before { content: "\f101"; }
+.flaticon-mail:before { content: "\f102"; }
+.flaticon-leaf:before { content: "\f103"; }
+.flaticon-checked:before { content: "\f104"; }
 .flaticon-gardening:before { content: "\f105"; }
-.flaticon-building:before { content: "\f106"; }
-.flaticon-shovel:before { content: "\f107"; }
-.flaticon-watering-can:before { content: "\f108"; }
-.flaticon-calendar:before { content: "\f109"; }
-.flaticon-plant-1:before { content: "\f10a"; }
-.flaticon-send-button:before { content: "\f10b"; }
-.flaticon-facebook-logo:before { content: "\f10c"; }
-.flaticon-google-plus-logo:before { content: "\f10d"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f106"; }
+.flaticon-mail-1:before { content: "\f107"; }
+.flaticon-trophy:before { content: "\f108"; }
+.flaticon-manager:before { content: "\f109"; }
+.flaticon-email-filled-closed-envelope:before { content: "\f10a"; }
+.flaticon-call-answer:before { content: "\f10b"; }
+.flaticon-placeholder-filled-point:before { content: "\f10c"; }
+.flaticon-signing-the-contract:before { content: "\f10d"; }
+.flaticon-old-typical-phone:before { content: "\f10e"; }
+.flaticon-move:before { content: "\f10f"; }
+.flaticon-next:before { content: "\f110"; }
+.flaticon-left:before { content: "\f111"; }
