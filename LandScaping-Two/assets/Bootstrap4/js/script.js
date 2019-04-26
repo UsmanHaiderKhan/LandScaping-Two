@@ -3,9 +3,9 @@
 /*================== Read More Text ==================*/
 
 $(function () {
-    var showChar = 162;
-    var moretext = "Learn More";
-    var lesstext = "Learn Less";
+    var showChar = 320;
+    var moretext = "Read More >>";
+    var lesstext = "Read Less <<";
     $('.comments-space').each(function () {
         var content = $(this).html();
         if (content.length > showChar) {
@@ -15,10 +15,10 @@ $(function () {
                 '<span class="remaining-contents"><span class=" p-3">' +
                 hide_content +
                 '</span>' +
-                '<div class="text-center mt-27 ml-23 media-ml-30">' +
-                '<a href="" class="morelinksss text-center btn btn-more" style="display:block;">' +
+
+                '<a href="" class="morelinksss read-text mt-30" style="display:block;">' +
                 moretext +
-                '</a>' + '</div>' + '</span>';;
+                '</a>' + '</span>';;
 
             $(this).html(html);
         }
@@ -39,9 +39,9 @@ $(function () {
     });
 });
 $(function () {
-    var showChar = 658;
-    var moretext = " More &nbsp;";
-    var lesstext = " Less &nbsp;";
+    var showChar = 280;
+    var moretext = " Read More >>";
+    var lesstext = "Read Less <<";
     $('.comments-spaces').each(function () {
         var content = $(this).html();
         if (content.length > showChar) {
@@ -49,7 +49,7 @@ $(function () {
             var hide_content = content.substr(showChar, content.length - showChar);
             var html = show_content + '<span class="remaining-contents"><span>' + hide_content + '</span>' +
 
-                '<a href="" class="morelinks btn btn-more mt-35" style="display:block;">' + moretext + '</a>'
+                '<a href="" class="morelinks read-texts mt-10" style="display:block;">' + moretext + '</a>'
                 + '</span>';
             $(this).html(html);
         }
@@ -98,14 +98,17 @@ $(document).ready(function () {
 
 /*===================== Owl Carousel Slider ======================*/
 
-
+//<i class=""></i>
+//    <i class=""></i>
 $(function () {
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 0,
+    $('#owl-two').owlCarousel({
+        loop: false,
+        margin: 20,
         dots: true,
         nav: false,
+        slideBy: 1,
         item: 1,
+        navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
         responsiveClass: true,
         responsive: {
             0: {
@@ -136,19 +139,102 @@ $(function () {
         }
     });
 });
+$(function () {
+    $('#owl-one').owlCarousel({
+        loop: false,
+        margin: 20,
+        dots: false,
+        nav: true,
+        slideBy: 4,
+        item: 4,
+        navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            400: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            600: {
+                items: 2,
+                dots: false,
+                nav: true
+            },
+            800: {
+                items: 3,
+                dots: false,
+                nav: true
+            },
+            1000: {
+                items: 4,
+                dots: false,
+                nav: true
+            }
+        }
+    });
+});
+$(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 0,
+        dots: false,
+        nav: true,
+        item: 1, navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            400: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            600: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            800: {
+                items: 1,
+                dots: false,
+                nav: true
+            },
+            1000: {
+                items: 1,
+                dots: false,
+                nav: true
+            }
+        }
+    });
+});
 
 /*===================== Slick Slider ======================*/
 
 
 /*===================== Scroll Top Function Script ======================*/
 $(function () {
+    $("#home .slider").addClass("mt--30");
+    $("#home nav").addClass("mt--24");
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 100) {
-            $("#home nav").addClass("sleep nav-bg-color fixed-top");
-
+            $("#home nav").addClass("sleep fixed-top mt-0 zero-skew");
+            $("#home .navbar-nav").removeClass("no-skew");
+            $("#home .navbar-brand").removeClass("no-skew");
+            $("#home .slider").addClass("mt--46");
         } else {
-            $("#home nav").removeClass(" sleep nav-bg-color fixed-top");
+
+            $("#home .navbar-nav").addClass("no-skew");
+            $("#home .navbar-brand").addClass("no-skew");
+            $("#home nav").removeClass(" sleep fixed-top mt-0 zero-skew");
 
 
         }
